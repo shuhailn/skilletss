@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "railaway";
+    color: rgb(158, 168, 162);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.nav ul{
+    margin: 0;   
+}
+.nav li{
+    display: inline;    
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: rgb(231, 243, 235);
+    text-decoration: none;
+
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.3em;
+    border-bottom:  1px solid rgb(231, 243, 235) ;
+}
+
+.nav a:hover{
+    background-color:rgb(6, 7, 6);
+
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+.bandname{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Raleway;
+    font-weight: normal;
+}
+.bandname-large{
+    font-size: 7em;
+    font-family: "metal mania"
+}
+
+.content-class{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.content-header{
+    font-family: "Metal Mania";
+    text-align: center;
+}
+
+
+.main-header{
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("images/header.jpg");
+
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.album1{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+}
+.album1 div{
+    padding-right: 40px;
+    padding-left: 30px;
+    
+}
+.album1 div div {
+    font-size: 25px;
+    text-align: center;
+
+}
+.album1 div button{
+    color
+}
+.merch{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    justify-items: center;
+}
+
+.merch div{
+    padding-right: 40px;
+    padding-left: 30px;
+    
+}
+
+#hnav li a {
+    text-decoration: none;
+    padding-left: 240px;
+    text-align: center;
+    color: aliceblue;
+   
+}
+#hnav li a :hover{
+    color: red;
+}
+#hnav li{
+    list-style-type: none;
+    float: left;
+    padding-left: 40px;
+    margin: 0;
+}
+#aimg{
+    border-radius: 50%;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: liner-gradient(45deg,transparent,#009688);
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+.signup-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    flex-wrap: wrap;
+    
+}
+.col-1, .col-2{
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+.col-1 img{
+    width: 100%;
+    display: block;
+}
+.col-2{
+    background: #fff;
+    padding: 40px 8%;
+    color: #333;
+    min-width: 250px;
+}
+.col-2 h2{
+    font-weight: 600;
+    text-align:center;
+}
+.col-2 span{
+    font-size: 12px;
+}
+.col-2 span a{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+}
+.google-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #202420;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 10px;
+}
+.google-link img{
+    width: 20px;
+    margin-right: 10px;
+}
+.lgn{
+    background-color:black;
+}
+.col-2 h4{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.input-field{
+     padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #202420;
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 5px 0 10px;
+    background-color:black;
+}
+form label{
+    font-weight: 500;
+    font-size: 12px;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.row input{
+    margin-right: 6px;
+}
+.col-2 form button{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #202420;
+    text-decoration: none;
+    color: ;
+    font-size: 13px;
+    margin: 18px 0 10px;
+    background: #202420;
+    color: #fff;
+    cursor: pointer;
+}
+.col-2 form button:hover{
+   
+  background-color: #555555;
+  color: white;
+
+}
+button{
+  background-color: #202420; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: .3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555555;
+  color: white;
+}
+.booking{
+    text-align: center;
+
+}
+.col-2{
+    background-color:black;
+}
+.booking input{
+    background-color:black;
+    width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+}
+footer{
+    background-color:rgba(0, 0, 0, 0.5)
+}
